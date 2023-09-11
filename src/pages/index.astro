@@ -1,0 +1,64 @@
+---
+import AppLayout from '../layouts/AppLayout.astro'
+import Hero from '../components/Hero.astro'
+import DinoCard from '../components/DinoCard.astro'
+---
+
+<AppLayout title="Dinosaurios">
+	<Hero
+		image="/images/hero01.jpg"
+		legend="Los dinosaurios vivieron en la Tierra hace millones de años y se extinguieron hace aproximadamente 65 millones de años"
+	/>
+	<section class="grid lg:grid-cols-2 xl:grid-cols-3 gap-4 py-4">
+		<DinoCard
+			image="/images/dino01.jpg"
+			name="Tyrannosaurus rex"
+			description="El Tyrannosaurus rex, o T. rex, fue uno de los dinosaurios carnívoros más grandes y temibles que jamás haya existido. Vivió durante el período Cretácico y era conocido por sus poderosas mandíbulas y dientes afilados"
+		/>
+		<DinoCard
+			image="/images/dino02.jpg"
+			name="Brachiosaurus"
+			description="El Brachiosaurus era un dinosaurio herbívoro de cuello largo que vivió durante el Jurásico Superior. Era uno de los dinosaurios más altos, alcanzando alturas impresionantes para llegar a las hojas de los árboles"
+		/>
+		<DinoCard
+			image="/images/dino03.jpg"
+			name="Velociraptor"
+			description="El Velociraptor era un dinosaurio carnívoro que vivió durante el Cretácico. Era conocido por su agilidad y su capacidad para cazar en manada. A menudo se le representa como un dinosaurio emplumado"
+		/>
+		<DinoCard
+			image="/images/dino04.jpg"
+			name="Triceratops"
+			description="El Triceratops era un dinosaurio herbívoro con tres cuernos en la cabeza y una gran gola ósea en el cuello. Vivió durante el período Cretácico y se cree que era un dinosaurio de defensa eficaz contra depredadores"
+		/>
+		<DinoCard
+			image="/images/dino05.jpg"
+			name="Stegosaurus"
+			description="El Stegosaurus era un dinosaurio herbívoro que vivió durante el Jurásico. Se caracterizaba por las placas óseas en su espalda y las espinas en su cola. Estas características se utilizaban posiblemente para la regulación de la temperatura y la defensa"
+		/>
+		<DinoCard
+			image="/images/dino06.jpg"
+			name="Brontosaurus"
+			description="El Brontosaurus, también conocido como Apatosaurus, fue un dinosaurio herbívoro de cuello largo que vivió durante el Jurásico. Era uno de los dinosaurios más grandes y pesados de su época"
+		/>
+		<DinoCard
+			image="/images/dino07.jpg"
+			name="Ankylosaurus"
+			description="El Ankylosaurus era un dinosaurio herbívoro acorazado que vivió durante el Cretácico. Estaba protegido por una armadura ósea y tenía un gran mazo en la cola que podía usar para defenderse de los depredadores"
+		/>
+		<DinoCard
+			image="/images/dino08.jpg"
+			name="Diplodocus"
+			description="El Diplodocus era un dinosaurio de cuello largo herbívoro que vivió durante el Jurásico. Era conocido por su largo cuello y cola, que le permitían alimentarse de las hojas de los árboles a gran altura"
+		/>
+		<DinoCard
+			image="/images/dino09.jpg"
+			name="Pteranodon"
+			description="El Pteranodon no era un dinosaurio, sino un pterosaurio volador que vivió durante el Cretácico. Tenía una envergadura alar impresionante y se alimentaba de peces en los océanos prehistóricos"
+		/>
+		<DinoCard
+			image="/images/dino10.jpg"
+			name="Spinosaurus"
+			description="El Spinosaurus era un dinosaurio carnívoro acuático que vivió durante el Cretácico. Se caracterizaba por su espalda con espinas y su hocico largo, que sugieren que se especializaba en la pesca"
+		/>
+	</section>
+</AppLayout>
